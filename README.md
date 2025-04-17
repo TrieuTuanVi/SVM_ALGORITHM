@@ -1,13 +1,13 @@
 # Project Pyhton - Machine Learning: 🧬SVM - based Cancer Cell Classification🧬
 
 ---
-## 🔥 Casestudy
+## 🔍 Casestudy
 
 You are given a dataset consisting of records containing information about human body cells. You will use SVM (Support Vector Machines) to build and train a model to classify cells to determine whether samples are benign or malignant.
 
 --- 
 
-## 📌 Project Objective  
+## 🎯 Project Objective  
 This project utilizes Support Vector Machines (SVM) to build a model that classifies human body cells into:
 
 - **Benign**  
@@ -17,7 +17,7 @@ The application aims to support cancer screening and early diagnosis.
 
 ---
 
-## ➡️Introduction to SVM  
+## 📃 Introduction to SVM  
 
 Support Vector Machine (SVM) is a supervised machine learning algorithm with strong classification capabilities. It works by optimizing the margin between data groups, which enhances accuracy and reduces errors.
 
@@ -33,7 +33,7 @@ SVM works by mapping data to a high-dimensional feature space so that data point
 3. Evaluation
 
 ---
-## 📊 Dataset Information  
+## 📁 Dataset Information  
 
 - <a href= "https://github.com/TrieuTuanVi/SVM_ALGORITHM/blob/main/knn_data.csv">Dataset</a>
 
@@ -54,7 +54,7 @@ The example is based on a dataset that is publicly available from the UCI Machin
 
 ---
 
-## ⚙️ Tools & Technologies Used  
+## 🛠️ Tools & Technologies Used  
 
 -  **Language**: Python 3.x  
 -  **Libraries**:
@@ -65,32 +65,43 @@ The example is based on a dataset that is publicly available from the UCI Machin
 -  **Jupyter Notebook** – Programming environment, visual, and presentation-friendly.
 
 ---
+## ⚙️ Processing
 
+1. **Data Preprocessing**
+- Remove missing values, handle noise.
+- Divide data into training and testing sets.
 
+2, **Model Training**
+- Apply SVM algorithm.
+- Adjust kernel, C, gamma parameters to optimize performance.
+
+3. **Model Evaluation** : Use Accuracy, Precision, Recall, F1-Score.
 
 ---
+## ✅ Results 
 
-## 💡 Results & Practical Significance  
-- **Accuracy** = 96%  
-  → Correctly predicted 96% of all cases.
+![image](https://github.com/user-attachments/assets/99fc46ab-7566-4f14-afe9-58fd2574ecfd)
 
-### Precision  
-- **Benign**: 100%  
-- **Malignant**: 90%
+- **Accuracy:** 96%
+➡️ The model predicted correctly 96% of the data, indicating a high overall accuracy.
 
-### Recall  
-- **Benign**: 94%  
-- **Malignant**: 100%
+- **Precision:**
+  - **Benign:** 100%
+  - **Malignant:** 90%
+➡️ When the model predicts a sample as malignant (cancerous), the actual accuracy is 90%.
+➡️ When predicting benign (non-cancerous), the model's accuracy is nearly perfect (100%).
 
-### F1-Score  
-- **F1-Score** = 96%  
-  → Balanced between accuracy and cancer detection.
+- **Recall:**
+  - **Benign:** 94%
+  - **Malignant:** 100%
+➡️ The model correctly identifies all malignant samples (recall of 100% for malignant).
+➡️ It detects 94% of benign samples correctly.
 
-### Actual Cancer Rate:  
-- 47/137 test samples are cancerous (~34%).  
-- 90/137 samples are benign (~66%).
+- **F1-Score:** 96%
+➡️ The model maintains a good balance between precision and recall, making it suitable for medical applications where errors can have serious consequences.
 
-### Confusion Matrix  
-```python
-[[85  5]  
- [ 0 47]]
+
+![image](https://github.com/user-attachments/assets/63c822fc-2e3c-428f-9ba4-b0cff9e71cee)
+
+- **Cancer prevalence in the testing set:** ~34% (47 out of 137 samples)
+➡️ The dataset contains a relatively high proportion of cancer patients, and the model maintains strong performance despite this imbalance.
