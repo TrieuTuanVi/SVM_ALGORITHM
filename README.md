@@ -19,7 +19,7 @@ The application aims to support cancer screening and early diagnosis.
 
 ## 📃 Introduction to SVM  
 
-Support Vector Machine (SVM) is a supervised machine learning algorithm with strong classification capabilities. It works by optimizing the margin between data groups, which enhances accuracy and reduces errors.
+**Support Vector Machine (SVM)** is a supervised machine learning algorithm with strong classification capabilities. It works by optimizing the margin between data groups, which enhances accuracy and reduces errors.
 
 In this notebook, you will use SVM (Support Vector Machines) to build and train a model using human cell records, and classify cells to whether the samples are benign or malignant.
 
@@ -80,7 +80,7 @@ The example is based on a dataset that is publicly available from the UCI Machin
 ---
 ## ✅ Results 
 
-    ![image](https://github.com/user-attachments/assets/99fc46ab-7566-4f14-afe9-58fd2574ecfd)
+   ![image](https://github.com/user-attachments/assets/99fc46ab-7566-4f14-afe9-58fd2574ecfd)
 
 ➡️ **Accuracy:** 96%
  
@@ -103,8 +103,7 @@ The example is based on a dataset that is publicly available from the UCI Machin
  
  --> The model maintains a good balance between precision and recall, making it suitable for medical applications where errors can have serious consequences.
  
-
-    ![image](https://github.com/user-attachments/assets/63c822fc-2e3c-428f-9ba4-b0cff9e71cee)
+   ![image](https://github.com/user-attachments/assets/63c822fc-2e3c-428f-9ba4-b0cff9e71cee)
 
 
 ➡️ **Cancer prevalence in the testing set:** ~34% (47 out of 137 samples)
