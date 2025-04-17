@@ -14,6 +14,7 @@ This project utilizes Support Vector Machines (SVM) to build a model that classi
 - **Malignant**  
 
 The application aims to support cancer screening and early diagnosis.
+
 ---
 
 ## ➡️Introduction to SVM  
@@ -33,6 +34,9 @@ SVM works by mapping data to a high-dimensional feature space so that data point
 
 ---
 ## 📊 Dataset Information  
+
+- <a href= "https://github.com/TrieuTuanVi/SVM_ALGORITHM/blob/main/knn_data.csv">Dataset</a>
+
 The example is based on a dataset that is publicly available from the UCI Machine Learning Repository (Asuncion and Newman, 2007). The dataset consists of several hundred human cell sample records, each of which contains the values of a set of cell characteristics.The dataset contains 699 records, each sample includes features such as:
 |Field name|Description|
 |--- |--- |
