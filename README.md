@@ -58,24 +58,24 @@ The example is based on a dataset that is publicly available from the UCI Machin
 
 -  **Language**: Python 3.x  
 -  **Libraries**:
-  - scikit-learn – Machine Learning
-  - pandas – Data Processing
-  - numpy – Numerical Computation
-  - matplotlib, seaborn – Data Visualization
+    - scikit-learn – Machine Learning
+    - pandas – Data Processing
+    - numpy – Numerical Computation
+    - matplotlib, seaborn – Data Visualization
 -  **Jupyter Notebook** – Programming environment, visual, and presentation-friendly.
 
 ---
 ## ⚙️ Processing
 
-1. **Data Preprocessing**
+**1. Data Preprocessing**
 - Remove missing values, handle noise.
 - Divide data into training and testing sets.
 
-2, **Model Training**
+**2. Model Training**
 - Apply SVM algorithm.
 - Adjust kernel, C, gamma parameters to optimize performance.
 
-3. **Model Evaluation** : Use Accuracy, Precision, Recall, F1-Score.
+**3. Model Evaluation** : Use Accuracy, Precision, Recall, F1-Score.
 
 ---
 ## ✅ Results 
@@ -88,18 +88,15 @@ The example is based on a dataset that is publicly available from the UCI Machin
 - **Precision:**
   - **Benign:** 100%
   - **Malignant:** 90%
-➡️ When the model predicts a sample as malignant (cancerous), the actual accuracy is 90%.
-➡️ When predicting benign (non-cancerous), the model's accuracy is nearly perfect (100%).
+➡️ When the model predicts a sample as malignant (cancerous), the actual accuracy is 90%. When predicting benign (non-cancerous), the model's accuracy is nearly perfect (100%).
 
 - **Recall:**
   - **Benign:** 94%
   - **Malignant:** 100%
-➡️ The model correctly identifies all malignant samples (recall of 100% for malignant).
-➡️ It detects 94% of benign samples correctly.
+➡️ The model correctly identifies all malignant samples (recall of 100% for malignant). It detects 94% of benign samples correctly.
 
 - **F1-Score:** 96%
 ➡️ The model maintains a good balance between precision and recall, making it suitable for medical applications where errors can have serious consequences.
-
 
 ![image](https://github.com/user-attachments/assets/63c822fc-2e3c-428f-9ba4-b0cff9e71cee)
 
