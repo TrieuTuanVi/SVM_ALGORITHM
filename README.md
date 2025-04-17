@@ -80,25 +80,52 @@ The example is based on a dataset that is publicly available from the UCI Machin
 ---
 ## ✅ Results 
 
-![image](https://github.com/user-attachments/assets/99fc46ab-7566-4f14-afe9-58fd2574ecfd)
+    ![image](https://github.com/user-attachments/assets/99fc46ab-7566-4f14-afe9-58fd2574ecfd)
 
-- **Accuracy:** 96%
-➡️ The model predicted correctly 96% of the data, indicating a high overall accuracy.
+➡️ **Accuracy:** 96%
+ 
+ --> The model predicted correctly 96% of the data, indicating a high overall accuracy.
 
-- **Precision:**
+➡️ **Precision:**
   - **Benign:** 100%
   - **Malignant:** 90%
-➡️ When the model predicts a sample as malignant (cancerous), the actual accuracy is 90%. When predicting benign (non-cancerous), the model's accuracy is nearly perfect (100%).
+    
+-->  When the model predicts a sample as malignant (cancerous), the actual accuracy is 90%. When predicting benign (non-cancerous), the model's accuracy is nearly perfect (100%).
 
-- **Recall:**
+➡️ **Recall:**
   - **Benign:** 94%
   - **Malignant:** 100%
-➡️ The model correctly identifies all malignant samples (recall of 100% for malignant). It detects 94% of benign samples correctly.
+    
+--> The model correctly identifies all malignant samples (recall of 100% for malignant). It detects 94% of benign samples correctly.
 
-- **F1-Score:** 96%
-➡️ The model maintains a good balance between precision and recall, making it suitable for medical applications where errors can have serious consequences.
+➡️ **F1-Score:** 96%
 
-![image](https://github.com/user-attachments/assets/63c822fc-2e3c-428f-9ba4-b0cff9e71cee)
+ 
+ --> The model maintains a good balance between precision and recall, making it suitable for medical applications where errors can have serious consequences.
+ 
 
-- **Cancer prevalence in the testing set:** ~34% (47 out of 137 samples)
-➡️ The dataset contains a relatively high proportion of cancer patients, and the model maintains strong performance despite this imbalance.
+    ![image](https://github.com/user-attachments/assets/63c822fc-2e3c-428f-9ba4-b0cff9e71cee)
+
+
+➡️ **Cancer prevalence in the testing set:** ~34% (47 out of 137 samples)
+
+ --> The dataset contains a relatively high proportion of cancer patients, and the model maintains strong performance despite this imbalance.
+
+---
+ 
+## 🌍 Impact & Application
+
+- **Real-World Applications:**
+  - Assists doctors in screening high-risk patients.
+  - Increases accuracy in cancer diagnosis using cell data.
+  - Reduces human error in sample evaluation during diagnosis.
+
+- **Long-term Impact:**
+  - Contributes to the integration of machine learning in healthcare.
+  - Provides a foundation for automated diagnostic systems, reducing time and cost while enhancing early diagnosis and timely treatment.
+ 
+    
+---
+## ✨ Conclusion
+
+The SVM model delivers high accuracy, ensuring no cancer cases are missed. It is ideal for decision support systems in healthcare, contributing to early diagnosis and timely treatment.
