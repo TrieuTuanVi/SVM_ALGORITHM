@@ -82,30 +82,30 @@ The example is based on a dataset that is publicly available from the UCI Machin
 
    ![image](https://github.com/user-attachments/assets/99fc46ab-7566-4f14-afe9-58fd2574ecfd)
 
-➡️ **Accuracy:** 96%
+⚡ **Accuracy:** 96%
  
  --> The model predicted correctly 96% of the data, indicating a high overall accuracy.
 
-➡️ **Precision:**
+⚡ **Precision:**
   - **Benign:** 100%
   - **Malignant:** 90%
     
 -->  When the model predicts a sample as malignant (cancerous), the actual accuracy is 90%. When predicting benign (non-cancerous), the model's accuracy is nearly perfect (100%).
 
-➡️ **Recall:**
+⚡ **Recall:**
   - **Benign:** 94%
   - **Malignant:** 100%
     
 --> The model correctly identifies all malignant samples (recall of 100% for malignant). It detects 94% of benign samples correctly.
 
-➡️ **F1-Score:** 96%
+⚡ **F1-Score:** 96%
 
  
  --> The model maintains a good balance between precision and recall, making it suitable for medical applications where errors can have serious consequences.
 
  ![image](https://github.com/user-attachments/assets/bb365345-c793-47ab-8481-fad0c2a63830)
 
-➡️ **Cancer prevalence in the testing set:** ~34% (47 out of 137 samples)
+⚡ **Cancer prevalence in the testing set:** ~34% (47 out of 137 samples)
 
  --> The dataset contains a relatively high proportion of cancer patients, and the model maintains strong performance despite this imbalance.
 
