@@ -102,8 +102,10 @@ The example is based on a dataset that is publicly available from the UCI Machin
 
  
  --> The model maintains a good balance between precision and recall, making it suitable for medical applications where errors can have serious consequences.
+
  
-   ![image](https://github.com/user-attachments/assets/63c822fc-2e3c-428f-9ba4-b0cff9e71cee)
+![image](https://github.com/user-attachments/assets/63c822fc-2e3c-428f-9ba4-b0cff9e71cee)
+
 
 
 ➡️ **Cancer prevalence in the testing set:** ~34% (47 out of 137 samples)
