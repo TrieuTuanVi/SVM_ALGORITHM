@@ -1,5 +1,7 @@
 #  Project Pyhton - Machine Learning: 🧬SVM - based Cancer Cell Classification🧬
 
+This project will applies Support Vector Machines (SVM) to classify human cell samples as benign or malignant, aiming to support early cancer detection.
+
 ---
 ## 🔍 Casestudy
 
