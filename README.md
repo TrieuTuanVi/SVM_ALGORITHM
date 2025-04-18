@@ -1,6 +1,4 @@
-#  Project Pyhton - Machine Learning: 
-
-#                                    🧬SVM - based Cancer Cell Classification🧬
+#  Project Pyhton - Machine Learning: 🧬SVM - based Cancer Cell Classification🧬
 
 ---
 ## 🔍 Casestudy
