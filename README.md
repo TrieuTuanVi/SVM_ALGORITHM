@@ -33,7 +33,7 @@ SVM works by mapping data to a high-dimensional feature space so that data point
 3. Evaluation
 
 ---
-## 📁 Dataset Information  
+## 📁 Dataset  
 
 - <a href= "https://github.com/TrieuTuanVi/SVM_ALGORITHM/blob/main/knn_data.csv">Dataset</a>
 
@@ -112,7 +112,7 @@ The example is based on a dataset that is publicly available from the UCI Machin
 
 ---
  
-## 🌍 Impact & Application
+## 🏆 Impact & Application
 
 - **Real-World Applications:**
   - Assists doctors in screening high-risk patients.
@@ -125,6 +125,6 @@ The example is based on a dataset that is publicly available from the UCI Machin
  
     
 ---
-## ✨ Conclusion
+## 💡 Conclusion
 
 The SVM model delivers high accuracy, ensuring no cancer cases are missed. It is ideal for decision support systems in healthcare, contributing to early diagnosis and timely treatment.
